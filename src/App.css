@@ -114,3 +114,73 @@ body {
 .button.reset:active {
   transform: scale(0.95);
 }
+
+/* Input Box for Timer */
+.timer-input {
+  width: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 0;
+  border: 2px solid #4b6584;
+  border-radius: 5px;
+}
+
+.timer-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Start Button */
+.button.start {
+  background-color: #28a745;
+  color: white;
+  border: 2px solid #218838;
+}
+
+.button.start:hover {
+  transform: scale(1.05);
+  background-color: #218838;
+}
+
+.button.start:active {
+  transform: scale(0.95);
+}
+
+/* Game Setup Screen */
+.setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Chessboard */
+.chessboard {
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid #333;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+}
+
+.white-square {
+  background-color: #fff;
+}
+
+.black-square {
+  background-color: #000;
+}
+
+/* Game Area */
+.game-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
